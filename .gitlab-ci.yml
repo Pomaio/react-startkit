@@ -1,0 +1,14 @@
+image: node:10-stretch
+
+pages:
+  tags:
+    - docker
+  stage: deploy
+  script:
+    - npm ci
+    - mkdir public
+  artifacts:
+    paths:
+      - public
+  only:
+    - develop
