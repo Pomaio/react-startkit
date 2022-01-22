@@ -33,7 +33,7 @@
     "mobx-react-router": "^4.0.5",
     "moment": "^2.23.0",
     "mustache": "^3.0.1",
-    "nanoid": "^2.1.6",
+    "nanoid": "^3.1.31",
     "polished": "^2.3.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
